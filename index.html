@@ -11,6 +11,15 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
     rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-131PZ4LKGZ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-131PZ4LKGZ');
+  </script>
 
   <title>Meet Sudo</title>
 </head>
@@ -106,7 +115,7 @@
           <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
         </li>
       </ol>
-      
+
 
     </section>
 
@@ -123,27 +132,27 @@
 
 
     <div class="form">
-      <form action = "https://formspree.io/f/mdobnped" method="POST">
+      <form action="https://formspree.io/f/mdobnped" method="POST">
         <fieldset>
           <legend>Let's Chat</legend>
-      
+
           <label for="name_id">Your Name</label>
-          <input type="text" placeholder="Enter Your Name" id = "name_id" name="name" required>
-      
+          <input type="text" placeholder="Enter Your Name" id="name_id" name="name" required>
+
           <label for="email_id">Your Email</label>
-          <input type="email" placeholder="Enter Your Email" id = "email_id" name="email" required>
-      
+          <input type="email" placeholder="Enter Your Email" id="email_id" name="email" required>
+
           <label for="phone_id">Your Phone Number</label>
           <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
-      
-      
+
+
           <label for="msg">Leave A Message</label>
-          <textarea placeholder="Enter your message" id = "msg" name="mesg" required></textarea><br>
-      
-          <input type="submit" value = "Contact Me">
+          <textarea placeholder="Enter your message" id="msg" name="mesg" required></textarea><br>
+
+          <input type="submit" value="Contact Me">
         </fieldset>
-       </form>
+      </form>
     </div>
 
   </main>
