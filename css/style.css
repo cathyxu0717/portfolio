@@ -509,7 +509,7 @@ li {
   }
 
   .parallax {
-    background-attachment: scroll;
+    background-attachment: none;
   }
 
 }
