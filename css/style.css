@@ -509,8 +509,9 @@ li {
   }
 
   .parallax {
+    animation: none;
     background-attachment: none;
-    
+
   }
 
   .flip-card {
@@ -595,7 +596,7 @@ li {
 
 
 /*table starts here*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
 
   html,
   body {
@@ -704,7 +705,7 @@ li {
 /*table ends here*/
 
 /*desktop starts here*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
 
   html,
   body {
