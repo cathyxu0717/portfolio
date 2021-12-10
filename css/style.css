@@ -505,13 +505,16 @@ li {
 
 @media (prefers-reduced-motion: reduce) {
   .carousel__snapper {
-    animation-name: none;
+    animation: none;
   }
 
   .parallax {
     background-attachment: none;
   }
 
+  .flip-card {
+   animation: none;
+  }
 }
 
 .carousel:hover .carousel__snapper,
